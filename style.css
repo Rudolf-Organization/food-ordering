@@ -11,6 +11,8 @@ body {
   padding-bottom: 30px;
 }
 
+/* navbar start */
+
 .containerfluid {
   display: flex;
   justify-content: flex-start;
@@ -53,6 +55,12 @@ body {
 .ul-navbar5 {
   margin-right: 90px;
   text-decoration: none;
+}
+
+.img-food {
+  width: 30px;
+  height: 30px;
+  background-color: #f7efc1;
 }
 
 .a-navbar {
@@ -113,12 +121,6 @@ body {
   height: 35px;
 }
 
-.img-food {
-  width: 30px;
-  height: 30px;
-  background-color: #f7efc1;
-}
-
 .card-f {
   display: flex;
   justify-content: center;
@@ -130,7 +132,10 @@ body {
   background-color: white;
 }
 
-/* footer */
+/* navbar end */
+
+
+/* content start */
 
 .pjk h1 {
   font-size: 50px;
@@ -190,3 +195,28 @@ body {
   height: 30px;
   font-weight: 700;
 }
+
+/* content end */
+
+
+/* populer dishes start */
+
+/* populer dishes end */
+
+
+/* content B start */
+
+/* content B end */
+
+
+/* content C start */
+
+/* content C end */
+
+
+/* content A start */
+
+/* content A end */
+
+
+
