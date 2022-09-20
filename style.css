@@ -196,10 +196,101 @@ body {
   font-weight: 700;
 }
 
+.home {
+  display: flex;
+  justify-content: space-around;
+}
+
+.homeimg img {
+  width: 30rem;
+}
+
 /* content end */
 
 
 /* populer dishes start */
+
+
+.popular-container {
+  margin: 0px auto;
+  max-width: 1250px;
+  width: 100%;
+}
+
+.slide-name {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.slide-name h3 {
+  font-size: 25px;
+}
+
+.btn-ar {
+  width: 30px;
+  height: 30px;
+  background-color: #f7efc1;
+  border-radius: 100%;
+  border: 1px solid #ffa600;
+}
+
+.btn-ar:hover {
+  background-color: #ffa600;
+}
+
+.slide-item {
+  position: relative;
+  background-color: #f1e185;
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 350px;
+  height: 270px;
+  border-radius: 25px;
+}
+.img-card {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 0px 0px;
+}
+.img-card img {
+  width: 10rem;
+}
+
+.desc-card h3 {
+  font-size: 17px;
+}
+.desc-card p {
+  margin: 10px 8px;
+  font-size: 12px;
+  text-align: center;
+}
+.price-card {
+  margin: 5px 0px 0px 0px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.price-card button {
+  padding: 8px 12px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #ffa600;
+  font-weight: bold;
+}
+.price-card button:hover {
+  background-color:#f1e185;
+  border: 2px solid #ffa600;
+}
+.swiper-pagination {
+  position: relative;
+  margin: 10px 0px 0px 0px;
+  opacity: 1;
+}
 
 /* populer dishes end */
 
