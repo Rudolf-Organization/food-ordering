@@ -321,14 +321,6 @@ body {
   opacity: 1;
 }
 
-.slide-item {
-  max-width: 200px;
-}
-
-/* .slide-item {
-  max-width: 200px;
-} */
-
 /* populer dishes end */
 
 /* content B start */
@@ -336,6 +328,160 @@ body {
 /* content B end */
 
 /* content C start */
+/* make reservation start */
+.reservation-container {
+  /* background-color: #2bff00; */
+  margin: 50px auto;
+  max-width: 1250px;
+  width: 100%;
+}
+.reservation {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.desc-res {
+  /* background-color: yellow; */
+  margin: 150px 0px;
+}
+.desc-res h2 {
+  font-size: 30px;
+  max-width: 500px;
+  margin: 10px 0px;
+}
+.desc-res p {
+  max-width: 400px;
+  font-size: 12px;
+  color: #a5a5a5;
+  margin: 20px 0px;
+}
+/* .img-res {
+  background-color: violet; 
+} 
+*/
+.img-res img {
+  width: 33rem;
+  height: 33rem;
+}
+.desc-res button {
+  padding: 8px 12px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #ffa600;
+  font-weight: bold;
+}
+/* make reservation end */
+
+
+
+
+
+
+/* testimoni customer start */
+
+.testimoni-container {
+  margin: 0px auto;
+  max-width: 1250px;
+  width: 100%;
+}
+
+.testi-name {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.testi-name h3 {
+  font-size: 25px;
+}
+
+.testi-item {
+  position: relative;
+  background-color: white;
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 900px;
+  height: 290px;
+  border-radius: 25px;
+}
+
+.desc-testi p {
+  margin: 10px 8px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.img-testi {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px 0px 0px;
+}
+.img-testi img {
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.name-testi h3 {
+  font-size: 17px;
+} 
+
+
+
+/* testimoni customer end */
+
+
+
+/* meet our chef start */
+
+.ourchef-container {
+  margin: 50px auto;
+  max-width: 1250px;
+  width: 100%;
+}
+
+.meet-chef {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.meet-chef h3 {
+  font-size: 25px;
+}
+
+.ourchef-item {
+  position: relative;
+  background-color: white;
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 350px;
+  height: 290px;
+  border-radius: 25px;
+}
+
+.img-chef {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px 10px 0px;
+}
+.img-chef img {
+  width: 10rem;
+  border-radius: 15px;
+}
+
+.name-ourchef h3 {
+  font-size: 17px;
+}
+
+
 
 /* content C end */
 
